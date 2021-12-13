@@ -5,12 +5,12 @@ h1,p{
 header{
     display: grid;
     grid-template-columns: .5fr 1.5fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1.5fr .5fr;
 }
 
 .foto-perfil{
-    max-width: 90%;
-    max-height: 90%;
+    width: 80%;
+    height: auto;
     rotate: -20deg;
 
 }
@@ -18,34 +18,18 @@ header{
 .header-bio{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    margin: 15px;
+    margin: 3em 3em 0 0;
     border-image-slice: 35 35 35 35;
-    border-image-source: url('../../img/header-rect.svg');
+    border-image-source: url('../../img/header-links.svg');
     border-image-width: 50px 50px 50px 50px;
 }
 
 .bio-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 3em;
-    padding-top: 0;
+    padding: 0 3em;
 }
-
 .bio-title{
     text-align: center;
     align-self: center;
-    padding-top: 1em;
 }
-/*.header-bio h1{
-    grid-area: 1 / 1 / span 1 / span 2;
-    text-align: center;
-    align-self: flex-end;
-}
-
-.header-bio p{
-    align-self: flex-start;
-    justify-self: start;
-    padding-left: 25px;
-    margin: 0;
-}
-*/
