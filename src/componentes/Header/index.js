@@ -1,10 +1,13 @@
 import React from 'react';
+import SocialLinks from '../SocialLinks';
 import './style.css';
 
-export default function Header(){
-    return(
+export default function Header() {
+    return (
         <header>
-            <img src='assets/octocat-profile.png' alt='foto de perfil' className='foto-perfil' />
+            <a href='https://myoctocat.com/' rel='noreferrer noopener' target='_blank' title='create your own octocat'>
+                <img src='assets/octocat-profile.png' alt='avatar do perfil' className='foto-perfil' />
+            </a>
             <div className='header-bio'>
                 <h1 className='bio-title'>Caroline Heloíse de Oliveira</h1>
                 <div className='bio-content'>
@@ -13,9 +16,9 @@ export default function Header(){
                     <p>Atuou como professora de Inglês para crianças e adolescentes</p>
                     <p>Desenvolvedora web Front-end</p>
                 </div>
-            </div>
-            <div className='header-links'>
-
+                <div className="bio-links">
+                    <SocialLinks />
+                </div>
             </div>
         </header>
     )

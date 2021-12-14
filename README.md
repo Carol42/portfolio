@@ -1,6 +1,10 @@
 <h1 align='center'>
+    <a href='https://myoctocat.com/' rel='noreferrer noopener' target='_blank' title='create your own octocat'>
     <img src='./src/img/octocat-stickers.png' width='10%' alt='octocat'>
+    </a>
+    <a href='https://fontmeme.com/permalink/211212/53ce3a1fa4b56ddd5777817a47a0e840.png' rel='noreferrer noopener' target='_blank' title='d&d font'>
     <img src='./src/img/titulo-logo.png' width='70%' alt='portfolio pessoal'>
+    </a>
 </h1>
 
 <h3 align='center'>&#x1F517;<a href='https://portfolio-carol42.vercel.app/' target='_blank'> Acessar a demonstração</a></h3>

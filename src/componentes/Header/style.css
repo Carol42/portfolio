@@ -17,8 +17,9 @@ header{
 
 .header-bio{
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    margin: 3em 3em 0 0;
+    grid-template-rows: .9fr .9fr .1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3.5em 3.5em 0 0;
     border-image-slice: 35 35 35 35;
     border-image-source: url('../../img/header-links.svg');
     border-image-width: 50px 50px 50px 50px;
@@ -28,8 +29,16 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 3em;
+    grid-area: 2 / 1/ span 1 / span 3;
 }
 .bio-title{
     text-align: center;
     align-self: center;
+    grid-area: 1/ 1/ span 1 / span 3;
+}
+
+.bio-links{
+    margin-bottom: .5em;
+    grid-area: 3 / 2 / span 1 / span 1;
+    text-align: center;
 }
