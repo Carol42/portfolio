@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faTwitter, faCodepen, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faTwitter, faCodepen, faGithub, faLinkedin, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import './style.css';
@@ -26,7 +26,10 @@ export default function SocialLinks() {
             <a className="socialLink" target="_blank" rel="noreferrer noopener" href="https://twitter.com/carol_heloo/">
                 <FontAwesomeIcon icon={faTwitter} className="socialIcon" />
             </a>
-            <a className="socialLink" href="mailto:caroline.heliose@gmail.com">
+            <a className="socialLink" target="_blank" rel="noreferrer noopener" href="https://t.me/carol_helo">
+                <FontAwesomeIcon icon={faTelegram} className="socialIcon" />
+            </a>
+            <a className="socialLink" href="mailto:carol42.helo@gmail.com">
                 <FontAwesomeIcon icon={faEnvelope} className="socialIcon" />
             </a>
         </div>

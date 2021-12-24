@@ -1,5 +1,6 @@
 .App{
     padding: 1em;
+    background-color: honeydew;
     background-image: url('./img/pergaminho.png');
     background-size: cover;
     background-repeat: no-repeat;

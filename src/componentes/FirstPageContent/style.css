@@ -1,0 +1,48 @@
+.tracos{
+    grid-row-end: span 4;
+    display: grid;
+}
+
+.habilidades-wrap, .idiomas-wrap{
+    box-sizing: border-box;
+    border-image-slice: 35 35 35 35;
+    border-image-source: url('../../img/borda-1.svg');
+    border-image-width: 50px 50px 50px 50px;
+    padding: 1.5em;
+    margin: auto auto;
+    width: 90%;
+    height: 90%;
+}
+
+.personalidade-wrap{
+    box-sizing: border-box;
+    border-image-slice: 35 35 35 35;
+    border-image-source: url('../../img/borda-topo.svg');
+    border-image-width: 50px 50px 50px 50px;
+    padding: 1.5em;
+    margin: auto auto;
+    width: 90%;
+    height: 90%;
+}
+
+.ideais-wrap, .vinculos-wrap{
+    box-sizing: border-box;
+    border-image-slice: 35 35 35 35;
+    border-image-source: url('../../img/borda-meio.svg');
+    border-image-width: 50px 50px 50px 50px;
+    padding: 1.5em;
+    margin: auto auto;
+    width: 90%;
+    height: 90%;
+}
+
+.defeitos-wrap{
+    box-sizing: border-box;
+    border-image-slice: 35 35 35 35;
+    border-image-source: url('../../img/borda-base.svg');
+    border-image-width: 50px 50px 50px 50px;
+    padding: 1.5em;
+    margin: auto auto;
+    width: 90%;
+    height: 90%;
+}
