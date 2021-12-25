@@ -5,7 +5,7 @@ h1,p{
 header{
     display: grid;
     grid-template-columns: .5fr 1.5fr;
-    grid-template-rows: 1.5fr .5fr;
+    margin-bottom: 3em;
 }
 
 .foto-perfil{

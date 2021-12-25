@@ -1,0 +1,15 @@
+.button{
+    border-radius: 12px;
+    padding: .6em 1.5em;
+    margin: auto 1em;
+    background-image: url('../../img/fundo-botao.jpeg');
+    background-position: right;
+    box-shadow: 5px 5px 12px #222;
+}
+
+.button-link{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #222;
+    font-weight: 600;
+}

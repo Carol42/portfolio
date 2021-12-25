@@ -1,3 +1,17 @@
+h3{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 80%;
+}
+
+li{
+    padding: .5em 0;
+}
+
 .tracos{
     grid-row-end: span 4;
     display: grid;
@@ -5,44 +19,69 @@
 
 .habilidades-wrap, .idiomas-wrap{
     box-sizing: border-box;
-    border-image-slice: 35 35 35 35;
+    border-image-slice: 50;
     border-image-source: url('../../img/borda-1.svg');
     border-image-width: 50px 50px 50px 50px;
     padding: 1.5em;
+    padding-bottom: .5em;
+    margin: auto auto;
+    width: 90%;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.habilidades-wrap{
+    grid-row-end: span 3;
+    border-image-slice: 60;
+}
+.progress-container{
+    background-color: lightgrey;
+    border-radius: 50px;
+    height: 7px;
+    margin-top: .4em;
+}
+
+.progress-bar{
+    background-color: crimson;
+    width: 50%;
+    border-radius: 50px;
+    height: 7px;
+    margin-top: .4em;
+    color: rgba(255,255,255,0);
+}
+
+.personalidade-wrap,
+.ideais-wrap,
+.vinculos-wrap,
+.defeitos-wrap{
+    box-sizing: border-box;
+    padding: 1.5em;
     margin: auto auto;
     width: 90%;
     height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
 }
 
 .personalidade-wrap{
-    box-sizing: border-box;
-    border-image-slice: 35 35 35 35;
+    border-image-slice: 50;
     border-image-source: url('../../img/borda-topo.svg');
-    border-image-width: 50px 50px 50px 50px;
-    padding: 1.5em;
-    margin: auto auto;
-    width: 90%;
-    height: 90%;
+    border-image-width: 50px 50px 50px 50px; 
 }
 
 .ideais-wrap, .vinculos-wrap{
-    box-sizing: border-box;
-    border-image-slice: 35 35 35 35;
+    border-image-slice: 50;
     border-image-source: url('../../img/borda-meio.svg');
     border-image-width: 50px 50px 50px 50px;
-    padding: 1.5em;
-    margin: auto auto;
-    width: 90%;
-    height: 90%;
 }
 
 .defeitos-wrap{
-    box-sizing: border-box;
-    border-image-slice: 35 35 35 35;
+    border-image-slice: 50;
     border-image-source: url('../../img/borda-base.svg');
     border-image-width: 50px 50px 50px 50px;
-    padding: 1.5em;
-    margin: auto auto;
-    width: 90%;
-    height: 90%;
 }

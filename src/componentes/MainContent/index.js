@@ -1,16 +1,10 @@
 import React from 'react';
-import Habilidades from '../FirstPageContent/Habilidades';
-import Idiomas from '../FirstPageContent/Idiomas';
-import Personalidade from '../FirstPageContent/Personalidade';
 import './style.css';
 
-export default function MainContent () {
+export default function MainContent (props) {
     return(
         <section className='MainContent'>
-            <Habilidades />
-            <Personalidade />
-            <Idiomas />
-
+            {props.children}
         </section>
     )
 }
