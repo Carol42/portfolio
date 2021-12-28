@@ -1,9 +1,9 @@
 <h1 align='center'>
     <a href='https://myoctocat.com/' rel='noreferrer noopener' target='_blank' title='create your own octocat'>
-    <img src='./src/img/octocat-stickers.png' width='10%' alt='octocat'>
+    <img src='./src/img/octocat.png' width='10%' alt='octocat'>
     </a>
     <a href='https://fontmeme.com/permalink/211212/53ce3a1fa4b56ddd5777817a47a0e840.png' rel='noreferrer noopener' target='_blank' title='d&d font'>
-    <img src='./src/img/titulo-logo.png' width='70%' alt='portfolio pessoal'>
+    <img src='./src/img/logo-title.png' width='70%' alt='portfolio pessoal'>
     </a>
 </h1>
 

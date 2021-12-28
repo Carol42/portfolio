@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Wrapper from "../../Wrapper";
 import ProgressBar from "../ProgressBar";
-import Borda from '../../../img/borda-1.svg';
+import Borda from '../../../img/border-1.svg';
 
 const StyledList = styled.ul`
     list-style-type: none;

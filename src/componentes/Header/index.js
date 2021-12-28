@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import SocialLinks from '../SocialLinks';
-import Border from '../../img/borda-1.svg';
+import Border from '../../img/border-1.svg';
 
 const StyledHeader = styled.header`
     display: grid;
@@ -44,7 +44,7 @@ export default function Header() {
     return (
         <StyledHeader>
             <div>
-                <Photo src='assets/octocat-profile.png' alt='avatar do perfil' className='foto-perfil' />
+                <Photo src='assets/octocat-profile-pic.png' alt='avatar do perfil' className='foto-perfil' />
                 <a href='https://myoctocat.com/' rel='noreferrer noopener' target='_blank' title='create your own octocat'>
                 </a>
             </div>

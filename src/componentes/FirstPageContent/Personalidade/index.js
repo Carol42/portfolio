@@ -1,6 +1,6 @@
 import React from "react";
 import Wrapper from "../../Wrapper";
-import Borda from "../../../img/borda-base.svg";
+import Borda from "../../../img/border-bottom.svg";
 
 export default function Personalidade() {
     return (

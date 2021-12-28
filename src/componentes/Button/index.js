@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import Img from '../../img/fundo-botao.jpeg';
+import Img from '../../img/button-bg.jpeg';
 
 const  StyledLink = styled(Link)`
     border-radius: 12px;

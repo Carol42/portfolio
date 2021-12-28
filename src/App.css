@@ -1,7 +1,7 @@
 .App{
     padding: 1em;
     background-color: honeydew;
-    background-image: url('./img/pergaminho.png');
+    background-image: url('./img/parchment.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
