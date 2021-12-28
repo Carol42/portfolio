@@ -1,37 +1,46 @@
 import React from "react";
+import styled from "styled-components";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faTwitter, faCodepen, faGithub, faLinkedin, faTelegram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-import './style.css';
+const StyledDiv = styled.div`
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+`
+
+const StyledIcon = styled(FontAwesomeIcon)`
+    color: #222;
+`
 
 export default function SocialLinks() {
     return (
-        <div className="socialLinks-container">
-            <a className="socialLink" target="_blank" rel="noreferrer noopener" href="http://github.com/Carol42">
-                <FontAwesomeIcon icon={faGithub} className="socialIcon" />
+        <StyledDiv>
+            <a target="_blank" rel="noreferrer noopener" href="http://github.com/Carol42">
+                <StyledIcon icon={faGithub} />
             </a>
-            <a className="socialLink" target="_blank" rel="noreferrer noopener" href="https://codepen.io/Carol42" >
-                <FontAwesomeIcon icon={faCodepen} className="socialIcon" />
+            <a target="_blank" rel="noreferrer noopener" href="https://codepen.io/Carol42" >
+                <StyledIcon icon={faCodepen} />
             </a>
-            <a className="socialLink" target="_blank" rel="noreferrer noopener" href="https://linkedin.com/in/carol42">
-                <FontAwesomeIcon icon={faLinkedin} className="socialIcon" />
+            <a target="_blank" rel="noreferrer noopener" href="https://linkedin.com/in/carol42">
+                <StyledIcon icon={faLinkedin} />
             </a>
-            <a className="socialLink" target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/carol_helloo/">
-                <FontAwesomeIcon icon={faInstagram} className="socialIcon" />
+            <a target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/carol_helloo/">
+                <StyledIcon icon={faInstagram} />
             </a>
-            <a className="socialLink" target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/profile.php?id=100070464602637">
-                <FontAwesomeIcon icon={faFacebook} className="socialIcon" />
+            <a target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/profile.php?id=100070464602637">
+                <StyledIcon icon={faFacebook} />
             </a>
-            <a className="socialLink" target="_blank" rel="noreferrer noopener" href="https://twitter.com/carol_heloo/">
-                <FontAwesomeIcon icon={faTwitter} className="socialIcon" />
+            <a target="_blank" rel="noreferrer noopener" href="https://twitter.com/carol_heloo/">
+                <StyledIcon icon={faTwitter} />
             </a>
-            <a className="socialLink" target="_blank" rel="noreferrer noopener" href="https://t.me/carol_helo">
-                <FontAwesomeIcon icon={faTelegram} className="socialIcon" />
+            <a target="_blank" rel="noreferrer noopener" href="https://t.me/carol_helo">
+                <StyledIcon icon={faTelegram} />
             </a>
-            <a className="socialLink" href="mailto:carol42.helo@gmail.com">
-                <FontAwesomeIcon icon={faEnvelope} className="socialIcon" />
+            <a href="mailto:carol42.helo@gmail.com">
+                <StyledIcon icon={faEnvelope} />
             </a>
-        </div>
+        </StyledDiv>
     )
 }

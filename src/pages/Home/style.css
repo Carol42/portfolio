@@ -1,5 +1,0 @@
-.first-page-wrap{
-    display: grid;
-    grid-template-columns: .7fr 1.3fr;
-    grid-template-rows: 2fr 1fr 1fr 2fr;
-}

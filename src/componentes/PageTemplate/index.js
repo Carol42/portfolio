@@ -24,11 +24,14 @@ export default function PageTemplate(props) {
                     name='Experiência'
                     path='/experience' />
                 <Button
-                    name='Formação Acadêmica'
+                    name='F. Acadêmica'
                     path='/education' />
                 <Button
                     name='Cursos'
                     path='/courses' />
+                <Button
+                    name='Eventos'
+                    path='/events' />
                 <Button
                     name='Hobbies'
                     path='/hobbies' />

@@ -15,10 +15,11 @@ const StyledWrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     grid-row-end: ${props => props.row_end};
+    grid-column-end: ${props => props.column_end};
 `
 export default function Wrapper (props) {
     return(
-        <StyledWrapper slice={props.slice} row_end={props.row_end} src={props.src}>
+        <StyledWrapper slice={props.slice} row_end={props.row_end} src={props.src} column_end={props.column_end}>
             {props.children}
         </StyledWrapper>
     )

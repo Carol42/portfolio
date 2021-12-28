@@ -1,24 +1,25 @@
 import React from "react";
+import styled from "styled-components";
 import Wrapper from "../../Wrapper";
 import ProgressBar from "../ProgressBar";
 import Borda from "../../../img/borda-1.svg";
 
-import '../../FirstPageContent/style.css';
+const StyledList = styled.ul`
+    list-style-type: none;
+    width: 80%;
+`
+const StyledItem = styled.li`
+    padding: .6em 0;
+`
 
 export default function Idiomas() {
     return (
         <Wrapper slice="50" row_end="span 1" src={Borda}>
-               <ul>
-                <li>Português
-                    <ProgressBar width="90%" />
-                </li>
-                <li>Inglês
-                    <ProgressBar width="80%" />
-                </li>
-                <li>Espanhol
-                    <ProgressBar width="50%" />
-                </li>
-            </ul>
+               <StyledList>
+                <StyledItem>Português<ProgressBar width="95%" /></StyledItem>
+                <StyledItem>Inglês<ProgressBar width="80%" /></StyledItem>
+                <StyledItem>Espanhol<ProgressBar width="50%" /></StyledItem>
+            </StyledList>
             <h3>Idiomas</h3>
         </Wrapper>
     )

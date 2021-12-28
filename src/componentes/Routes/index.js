@@ -6,6 +6,7 @@ import Home from "../../pages/Home";
 import Projects from "../../pages/Projects";
 import Courses from "../../pages/Courses";
 import Hobbies from "../../pages/Hobbies";
+import Eventos from "../../pages/Eventos";
 
 
 export default function Rotas() {
@@ -13,11 +14,12 @@ export default function Rotas() {
         <BrowserRouter>
             <Routes>
                 <Route exact path='/' element={ <Home /> } />
-                <Route  path='/projects' element={ <Projects /> } />
-                <Route  path='/education' element={ <Education /> } />
-                <Route  path='/experience' element={ <Experience /> } />
-                <Route  path='/courses' element={ <Courses /> } />
-                <Route  path='/hobbies' element={ <Hobbies /> } />
+                <Route path='/projects' element={ <Projects /> } />
+                <Route path='/education' element={ <Education /> } />
+                <Route path='/experience' element={ <Experience /> } />
+                <Route path='/courses' element={ <Courses /> } />
+                <Route path='/events' element={ <Eventos /> } />
+                <Route path='/hobbies' element={ <Hobbies /> } />
             </Routes>
         </BrowserRouter>
     )
