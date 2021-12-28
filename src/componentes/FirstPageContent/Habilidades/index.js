@@ -1,12 +1,13 @@
 import React from "react";
-import '../../FirstPageContent/style.css';
+import Wrapper from "../../Wrapper";
 import ProgressBar from "../ProgressBar";
+import Borda from '../../../img/borda-1.svg';
 
 import '../style.css';
 
 export default function Habilidades() {
     return (
-        <div className="habilidades-wrap">
+        <Wrapper slice="60" row_end="span 3" src={Borda}>
             <ul>
                 <li>HTML
                     <ProgressBar width="85%" />
@@ -25,6 +26,6 @@ export default function Habilidades() {
                 </li>
             </ul>
             <h3>Habilidades</h3>
-        </div>
-    )
+            </Wrapper>
+        )
 }

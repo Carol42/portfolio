@@ -1,14 +1,19 @@
+import React from 'react';
+import styled from 'styled-components';
 import Header from '../Header';
 import Footer from '../Footer';
 import Button from '../Button';
 
-import './style.css';
+const ButtonLine = styled.div`
+    display: flex;
+    justify-content: center;
+`
 
 export default function PageTemplate(props) {
     return (
         <>
             <Header />
-            <div className='button-line'>
+            <ButtonLine>
                 <Button
                     name='Bio'
                     path='/' />
@@ -27,7 +32,7 @@ export default function PageTemplate(props) {
                 <Button
                     name='Hobbies'
                     path='/hobbies' />
-            </div>
+            </ButtonLine>
             {props.children}
             <Footer />
         </>

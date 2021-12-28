@@ -1,11 +1,14 @@
 import React from "react";
-import '../../FirstPageContent/style.css';
+import Wrapper from "../../Wrapper";
 import ProgressBar from "../ProgressBar";
+import Borda from "../../../img/borda-1.svg";
+
+import '../../FirstPageContent/style.css';
 
 export default function Idiomas() {
     return (
-        <div className="idiomas-wrap">
-            <ul>
+        <Wrapper slice="50" row_end="span 1" src={Borda}>
+               <ul>
                 <li>Português
                     <ProgressBar width="90%" />
                 </li>
@@ -17,6 +20,6 @@ export default function Idiomas() {
                 </li>
             </ul>
             <h3>Idiomas</h3>
-        </div>
+        </Wrapper>
     )
 }

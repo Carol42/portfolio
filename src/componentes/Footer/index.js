@@ -1,8 +1,13 @@
 import React from "react";
-import './style.css';
+import styled from "styled-components";
+
+const StyledFooter = styled.footer`
+    text-align: center;
+    margin-top: 100px;
+`
 
 export default function Footer() {
     return (
-        <footer className="credits">Desenvolvido com &#x1F496; por Caroline Heloíse de Oliveira</footer>
+        <StyledFooter className="credits">Desenvolvido com &#x1F496; por Caroline Heloíse de Oliveira</StyledFooter>
     )
 }

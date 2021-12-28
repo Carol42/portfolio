@@ -1,33 +1,12 @@
 import React from "react";
-import '../../FirstPageContent/style.css';
+import Wrapper from "../../Wrapper";
+import Borda from "../../../img/borda-topo.svg";
 
 export default function Personalidade() {
-    return(
-        <div className="tracos">
-        <div className="personalidade-wrap">
-            <li>...</li>
-            <li>...</li>
-            <li>...</li>
+    return (
+        <Wrapper slice="50" src={Borda}>
+            <p>Movida por questionamentos e curiosidade, eu sempre quero aprender como as coisas funcionam e como posso fazê-las funcionar. Tendo um objetivo claro em mente, eu fico obcecada em cumpri-lo, e custa-me descansar enquanto não encontro uma solução a um problema.</p>
             <h3>Personalidade</h3>
-        </div>
-        <div className="ideais-wrap">
-            <li>...</li>
-            <li>...</li>
-            <li>...</li>
-            <h3>Ideais</h3>
-        </div>
-        <div className="vinculos-wrap">
-            <li>...</li>
-            <li>...</li>
-            <li>...</li>
-            <h3>Vínculos</h3>
-        </div>
-        <div className="defeitos-wrap">
-            <li>...</li>
-            <li>...</li>
-            <li>...</li>
-            <h3>Defeitos</h3>
-        </div>
-        </div>
+        </Wrapper>
     )
 }
