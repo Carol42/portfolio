@@ -48,7 +48,7 @@ O layout foi inspirado em uma ficha de personagem comum nos jogos de RPG, como o
 
 ## :computer: Como baixar o projeto
 
-### :light_bulb: Pré-requisitos
+### :bulb: Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/). 
