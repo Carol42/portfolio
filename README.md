@@ -1,4 +1,4 @@
-<div id="top"></div>
+<div id="topo"></div>
 <h1 align='center'>
     <a href='https://myoctocat.com/' rel='noreferrer noopener' target='_blank' title='create your own octocat'>
     <img src='./src/img/octocat.png' width='10%' alt='octocat'>
@@ -40,7 +40,7 @@ Este projeto trata-se de um resumo de minha trajetória pessoal e profissional, 
 
 O layout foi inspirado em uma ficha de personagem comum nos jogos de RPG, como o D&D.
 
-<p align="right">(<a href="#top">voltar ao topo</a>)</p>
+<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=CB3837&style=plastic&logo"/></a></p>
 
 ## :wrench: Tecnologias utilizadas
 - [React.js](https://reactjs.org/)
@@ -48,7 +48,7 @@ O layout foi inspirado em uma ficha de personagem comum nos jogos de RPG, como o
 - [Styled Components](https://styled-components.com/)
 - [Font Awsome](https://fontawesome.com/)
 
-<p align="right">(<a href="#top">voltar ao topo</a>)</p>
+<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=CB3837&style=plastic&logo"/></a></p>
 
 ## :computer: Como baixar o projeto
 
@@ -57,7 +57,7 @@ O layout foi inspirado em uma ficha de personagem comum nos jogos de RPG, como o
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/). 
 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
+Além disso, é bom ter um editor para trabalhar com o código como o [VSCode](https://code.visualstudio.com/).
 
 ```bash
 # Clonar o repositório
@@ -72,7 +72,7 @@ $ npm install
 # Iniciar o projeto
 $ npm start
 ```
-<p align="right">(<a href="#top">voltar ao topo</a>)</p>
+<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=CB3837&style=plastic&logo"/></a></p>
 
 ## :woman_technologist: A Desenvolvedora
 
@@ -86,4 +86,6 @@ $ npm start
 <a href="https://linkedin.com/in/carol42"><img src="https://img.shields.io/static/v1?label&message=/in/carol42&color=0A66C2&style=plastic&logo=linkedin"/></a>
 <a href="mailto:carol42.helo@gmail.com"><img src="https://img.shields.io/static/v1?label&message=carol42.helo@gmail.com&color=whitesmoke&style=plastic&logo=gmail"/></a>
 
-<p align="right">(<a href="#top">voltar ao topo</a>)</p>
+<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=CB3837&style=plastic&logo"/></a></p>
+
+
