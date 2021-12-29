@@ -26,15 +26,12 @@
     <ol>
         <li><a href="#pushpin-sobre">Sobre</a></li>
         <li><a href="#wrench-tecnologias-utilizadas">Tecnologias</a></li>
-<<<<<<< HEAD
         <li><a href="#computer-como-baixar-o-projeto">Como baixar</a>
             <ul>
                 <li><a href="#bulb-pré-requisitos">Pré requisitos</a></li>
             </ul>
         </li>
-=======
         <li><a href="#computer-como-baixar-o-projeto">Como baixar</a></li>
->>>>>>> 7357fbdc8363f834a7000451148e302d7e16ff5b
         <li><a href="#woman_technologist-a-desenvolvedora">A desenvolvedora</a></li>
     </ol>
 </details>
