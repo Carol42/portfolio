@@ -53,11 +53,7 @@ O layout foi inspirado em uma ficha de personagem comum nos jogos de RPG, como o
 
 ## :computer: Como baixar o projeto
 
-<<<<<<< HEAD
 ### :bulb: Pré requisitos
-=======
-### :bulb: Pré-requisitos
->>>>>>> 7357fbdc8363f834a7000451148e302d7e16ff5b
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/). 
