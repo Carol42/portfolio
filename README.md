@@ -31,7 +31,6 @@
                 <li><a href="#bulb-pré-requisitos">Pré requisitos</a></li>
             </ul>
         </li>
-        <li><a href="#computer-como-baixar-o-projeto">Como baixar</a></li>
         <li><a href="#woman_technologist-a-desenvolvedora">A desenvolvedora</a></li>
     </ol>
 </details>
