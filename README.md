@@ -7,7 +7,7 @@
     <img src='./src/img/logo-title.png' width='70%' alt='portfolio pessoal'>
     </a>
 </h1>
-<p align="center"><i>“Step out of line and I'll teach you how to fly" ~ Blind Guardian (2006)</i> </p>
+<p align="center"><i>“Step out of line and I'll teach you how to fly" ~Blind Guardian (2006)</i> </p>
 
 <div align="center">
     <img src="https://img.shields.io/static/v1?label=node&message=v16.13.1&color=339933&style=plastic&logo=nodedotjs"/>
@@ -26,8 +26,12 @@
     <ol>
         <li><a href="#pushpin-sobre">Sobre</a></li>
         <li><a href="#wrench-tecnologias-utilizadas">Tecnologias</a></li>
-        <li><a href="#computer-como-baixar-o-projeto">Como baixar</a></li>
-        <li><a href="#womantechnologist-a-desenvolvedora">A desenvolvedora</a></li>
+        <li><a href="#computer-como-baixar-o-projeto">Como baixar</a>
+            <ul>
+                <li><a href="#bulb-pré-requisitos">Pré requisitos</a></li>
+            </ul>
+        </li>
+        <li><a href="#woman_technologist-a-desenvolvedora">A desenvolvedora</a></li>
     </ol>
 </details>
 
@@ -48,7 +52,7 @@ O layout foi inspirado em uma ficha de personagem comum nos jogos de RPG, como o
 
 ## :computer: Como baixar o projeto
 
-### :light_bulb: Pré-requisitos
+### :bulb: Pré requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/). 
