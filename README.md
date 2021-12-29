@@ -26,11 +26,15 @@
     <ol>
         <li><a href="#pushpin-sobre">Sobre</a></li>
         <li><a href="#wrench-tecnologias-utilizadas">Tecnologias</a></li>
+<<<<<<< HEAD
         <li><a href="#computer-como-baixar-o-projeto">Como baixar</a>
             <ul>
                 <li><a href="#bulb-pré-requisitos">Pré requisitos</a></li>
             </ul>
         </li>
+=======
+        <li><a href="#computer-como-baixar-o-projeto">Como baixar</a></li>
+>>>>>>> 7357fbdc8363f834a7000451148e302d7e16ff5b
         <li><a href="#woman_technologist-a-desenvolvedora">A desenvolvedora</a></li>
     </ol>
 </details>
@@ -52,7 +56,11 @@ O layout foi inspirado em uma ficha de personagem comum nos jogos de RPG, como o
 
 ## :computer: Como baixar o projeto
 
+<<<<<<< HEAD
 ### :bulb: Pré requisitos
+=======
+### :bulb: Pré-requisitos
+>>>>>>> 7357fbdc8363f834a7000451148e302d7e16ff5b
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/). 
