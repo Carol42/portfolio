@@ -94,7 +94,7 @@ $ npm start
 
 <img src="https://avatars.githubusercontent.com/u/63017741?v=4" width="100px;" alt="foto da desenvolvedora"/>
 </br>
-<strong>Caroline Heloíse de Oliveira</strong>
+Caroline Heloíse de Oliveira
 </br>
 <sup>Estudante de Engenharia de Computação (UEPG)</sup>
 </br>
