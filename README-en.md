@@ -1,7 +1,7 @@
 <div id="top"></div>
 <h1 align='center'>
     <img src='./src/img/octocat.png' width='10%' alt='octocat'>
-    <img src='./src/img/logo-title.png' width='70%' alt='personal portfolio'>
+    <img src='./src/img/logo-title-en.png' width='70%' alt='personal portfolio'>
 </h1>
 <p align="center"><i>“Step out of line and I'll teach you how to fly" ~Blind Guardian (2006)</i> </p>
 
@@ -41,19 +41,19 @@ This project is a summary of my personal and professional career, showing my mai
 
 The layout was inspired on a character sheet used on RPG games, just like D&D.
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=⬆️top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back to top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
 
 ## :hammer_and_wrench: Features
 - [ ] General
     - [x] Buttons to switch between sections
     - [ ] English version of the web page 
 - [x] Section 1 (Home)
-    - [x] Present basic information and contact
+    - [x] Display basic information and contact links
     - [x] Progress bars indicating the knowledge / skill level on each one of the items
 - [ ] Section 2 (Projects)
     - [ ] Render a PDF on the page with each project's README
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=⬆️top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back to top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
 
 ## :wrench: Technologies and Resources
 - [React.js](https://reactjs.org/)
@@ -63,7 +63,7 @@ The layout was inspired on a character sheet used on RPG games, just like D&D.
 - [Font Meme](https://fontmeme.com/dungeons-dragons-font/) (Dungeons & Dragons Font used on the README banner)
 - [Build your own Octocat](https://myoctocat.com/) (Profile's avatar)
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=⬆️top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back to top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
 
 ## :computer: How to download and run the project
 
@@ -87,7 +87,7 @@ $ npm install
 # Start the project
 $ npm start
 ```
-<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=⬆️top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back to top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
 
 ## :woman_technologist: The developer
 
@@ -101,4 +101,4 @@ $ npm start
 <a href="https://linkedin.com/in/carol42"><img src="https://img.shields.io/static/v1?label&message=/in/carol42&color=0A66C2&style=plastic&logo=linkedin" alt="link to my LinkedIn" /></a>
 <a href="mailto:carol42.helo@gmail.com"><img src="https://img.shields.io/static/v1?label&message=carol42.helo@gmail.com&color=whitesmoke&style=plastic&logo=gmail" alt="link to send me an email" /></a>
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=⬆️top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
+<p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back to top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>

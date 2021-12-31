@@ -25,7 +25,7 @@
     <summary>Sumário</summary>
     <ol>
         <li><a href="#pushpin-sobre">Sobre</a></li>
-        <li><a href="#hammer_and_wrench-funcionalidade">Funcionalidades</a></li>
+        <li><a href="#hammer_and_wrench-funcionalidades">Funcionalidades</a></li>
         <li><a href="#wrench-tecnologias-e-recursos-utilizados">Tecnologias e Recursos</a></li>
         <li><a href="#computer-como-baixar-e-rodar-o-projeto">Como baixar</a>
             <ul>
@@ -41,7 +41,7 @@ Este projeto trata-se de um resumo de minha trajetória pessoal e profissional, 
 
 O layout foi inspirado em uma ficha de personagem comum nos jogos de RPG, como o D&D.
 
-<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=⬆️topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>
+<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>
 
 ## :hammer_and_wrench: Funcionalidades
 - [ ] Geral
@@ -53,7 +53,7 @@ O layout foi inspirado em uma ficha de personagem comum nos jogos de RPG, como o
 - [ ] Seção 2 (Projetos)
     - [ ] Renderizar um PDF na página com o README de cada projeto
 
-<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=⬆️topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>
+<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>
 
 ## :wrench: Tecnologias e recursos utilizados
 - [React.js](https://reactjs.org/)
@@ -63,7 +63,7 @@ O layout foi inspirado em uma ficha de personagem comum nos jogos de RPG, como o
 - [Font Meme](https://fontmeme.com/dungeons-dragons-font/) (Fonte Dungeons & Dragons utilizada no banner do README)
 - [Build your own Octocat](https://myoctocat.com/) (Avatar do perfil)
 
-<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=⬆️topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>
+<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>
 
 ## :computer: Como baixar e rodar o projeto
 
@@ -87,7 +87,8 @@ $ npm install
 # Iniciar o projeto
 $ npm start
 ```
-<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=⬆️topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>
+<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>
+
 
 ## :woman_technologist: A desenvolvedora
 
@@ -101,6 +102,6 @@ $ npm start
 <a href="https://linkedin.com/in/carol42"><img src="https://img.shields.io/static/v1?label&message=/in/carol42&color=0A66C2&style=plastic&logo=linkedin" alt="link para o meu LinkedIn" /></a>
 <a href="mailto:carol42.helo@gmail.com"><img src="https://img.shields.io/static/v1?label&message=carol42.helo@gmail.com&color=whitesmoke&style=plastic&logo=gmail" alt="link para me mandar um e-mail" /></a>
 
-<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=⬆️topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>
+<p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>
 
 
