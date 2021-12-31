@@ -26,8 +26,8 @@
     <ol>
         <li><a href="#pushpin-sobre">Sobre</a></li>
         <li><a href="#hammer_and_wrench-funcionalidades">Funcionalidades</a></li>
-        <li><a href="#wrench-tecnologias-e-recursos-utilizados">Tecnologias e Recursos</a></li>
-        <li><a href="#computer-como-baixar-e-rodar-o-projeto">Como baixar</a>
+        <li><a href="#wrench-tecnologias-e-recursos-utilizados">Tecnologias e recursos utilizados</a></li>
+        <li><a href="#computer-como-baixar-e-rodar-o-projeto">Como baixar e rodar o projeto</a>
             <ul>
                 <li><a href="#bulb-pré-requisitos">Pré requisitos</a></li>
             </ul>
@@ -44,13 +44,13 @@ O layout foi inspirado em uma ficha de personagem comum nos jogos de RPG, como o
 <p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>
 
 ## :hammer_and_wrench: Funcionalidades
-- [ ] Geral
+- Geral
     - [x] Botões para navegar entre as seções
     - [ ] Versão da página em Inglês 
-- [x] Seção 1 (Home)
+- Seção 1 (Home)
     - [x] Apresentar informações básicas e de contato
     - [x] Barras de progresso indicando o nível de conhecimento / habilidade em cada um dos itens
-- [ ] Seção 2 (Projetos)
+- Seção 2 (Projetos)
     - [ ] Renderizar um PDF na página com o README de cada projeto
 
 <p align="right"><a href="#topo"><img src="https://img.shields.io/static/v1?label&message=voltar ao topo&color=CF2323&style=flat&logo" alt="voltar ao topo" /></a></p>

@@ -44,13 +44,13 @@ The layout was inspired on a character sheet used on RPG games, just like D&D.
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back to top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
 
 ## :hammer_and_wrench: Features
-- [ ] General
+- General
     - [x] Buttons to switch between sections
     - [ ] English version of the web page 
-- [x] Section 1 (Home)
+- Section 1 (Home)
     - [x] Display basic information and contact links
     - [x] Progress bars indicating the knowledge / skill level on each one of the items
-- [ ] Section 2 (Projects)
+- Section 2 (Projects)
     - [ ] Render a PDF on the page with each project's README
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back to top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
