@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Wrapper from "../../Wrapper";
 import ProgressBar from "../ProgressBar";
 import Borda from '../../../img/border-1.svg';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDAndD } from "@fortawesome/free-brands-svg-icons";
 
 const StyledList = styled.ul`
     list-style-type: none;
@@ -21,7 +23,7 @@ export default function Linguagens() {
                 <StyledItem>JavaScript<ProgressBar width="45%" /></StyledItem>
                 <StyledItem>ReactJS<ProgressBar width="65%" /></StyledItem>
             </StyledList>
-            <h3>Linguagens & Frameworks</h3>
+            <h3>Linguagens <FontAwesomeIcon icon={ faDAndD } /> Frameworks</h3>
             </Wrapper>
         )
 }
