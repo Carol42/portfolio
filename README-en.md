@@ -11,6 +11,7 @@
     <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=339933&style=plastic&logo=" alt="PRs welcome" />
     <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Carol42/portfolio?color=181717&logo=github&style=plastic&logoColor=181717">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Carol42/portfolio?color=%23F7DF1E&logo=javascript&style=plastic">
+    <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Carol42/portfolio?&style=plastic&color=F05032&logo=git">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Carol42/portfolio?color=F05032&logo=git&logoColor&style=plastic">
     <img src="https://img.shields.io/static/v1?label=🚧 status&message=under development&color=FDD23F&style=plastic&logo=" alt="status: under development"/>
 </div>
@@ -18,8 +19,7 @@
 
 <h3 align='center'>:link:<a href='https://portfolio-carol42.vercel.app/' target='_blank'> Go to the preview (Vercel)</a></h3>
 
-<h4 align="center"> 
-    <a href="./README.md">Ir para a versão em Português deste README »</a>
+<h4 align="center">:brazil: <a href="./README.md">Ir para a versão em Português deste README »</a>
 </h4>
 <details>
     <summary>Table of Contents</summary>
@@ -39,7 +39,7 @@
 ## :pushpin: About
 This project is a summary of my personal and professional career, showing my main projects, education, experiences and personal traits.
 
-The layout was inspired on a character sheet used on RPG games, just like D&D.
+The layout was inspired by a character sheet used on RPG games, just like D&D.
 
 <p align="right"><a href="#top"><img src="https://img.shields.io/static/v1?label&message=back to top&color=CF2323&style=flat&logo" alt="back to top" /></a></p>
 
