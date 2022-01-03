@@ -22,6 +22,8 @@ export default function Linguagens() {
                 <StyledItem>CSS<ProgressBar width="75%" /></StyledItem>
                 <StyledItem>JavaScript<ProgressBar width="45%" /></StyledItem>
                 <StyledItem>ReactJS<ProgressBar width="65%" /></StyledItem>
+                <StyledItem>C<ProgressBar width="25%" /></StyledItem>
+                <StyledItem>Python<ProgressBar width="27%" /></StyledItem>
             </StyledList>
             <h3>Linguagens <FontAwesomeIcon icon={ faDAndD } /> Frameworks</h3>
             </Wrapper>

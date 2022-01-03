@@ -5,7 +5,7 @@ import Linguagens from "../../componentes/FirstPageContent/Linguagens";
 import Personalidade from "../../componentes/FirstPageContent/Personalidade";
 import Idiomas from "../../componentes/FirstPageContent/Idiomas";
 import Ferramentas from "../../componentes/FirstPageContent/Ferramentas";
-import Softwares from "../../componentes/FirstPageContent/Softwares";
+import Frases from "../../componentes/FirstPageContent/Frases";
 
 const StyledGrid = styled.div`
     width: 80%;
@@ -21,8 +21,8 @@ export default function Home() {
                 <StyledGrid>
                     <Idiomas />
                     <Linguagens />
+                    <Frases />
                     <Ferramentas />
-                    <Softwares />
                     <Personalidade />
                 </StyledGrid>
         </PageTemplate>
