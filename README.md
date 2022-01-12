@@ -1,7 +1,7 @@
 <div id="topo"></div>
 <h1 align='center'>
-    <img src='./src/img/octocat.png' width='10%' alt='octocat'>
-    <img src='./src/img/logo-title.png' width='70%' alt='portfolio pessoal'>
+    <img src='https://github.com/Carol42/portfolio/blob/main/src/img/octocat.png' width='10%' alt='octocat'>
+    <img src='https://github.com/Carol42/portfolio/blob/main/src/img/logo-title.png' width='70%' alt='portfolio pessoal'>
 </h1>
 <p align="center"><i>“Step out of line and I'll teach you how to fly" ~Blind Guardian (2006)</i> </p>
 
@@ -20,8 +20,14 @@
 
 <h3 align='center'>:link:<a href='https://portfolio-carol42.vercel.app/' target='_blank'> Acessar a demonstração (Vercel)</a></h3>
 
+<table align="right">
+ <tr><td><a href="https://github.com/Carol42/portfolio/blob/main/README-en.md">:us: English</a></td></tr>
+ <tr><td><a href="https://github.com/Carol42/portfolio/blob/main/README.md">:brazil: Português</a></td></tr>
+</table>
+<!--
 <h4 align="center">:us::gb: <a href="./README-en.md"> Go to the English version of this README »</a>
 </h4>
+-->
 <details>
     <summary>Sumário</summary>
     <ol>
