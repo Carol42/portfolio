@@ -1,7 +1,7 @@
 <div id="top"></div>
 <h1 align='center'>
-    <img src='./src/img/octocat.png' width='10%' alt='octocat'>
-    <img src='./src/img/logo-title-en.png' width='70%' alt='personal portfolio'>
+    <img src='https://github.com/Carol42/portfolio/blob/main/src/img/octocat.png' width='10%' alt='octocat'>
+    <img src='https://github.com/Carol42/portfolio/blob/main/src/img/logo-title-en.png' width='70%' alt='personal portfolio'>
 </h1>
 <p align="center"><i>“Step out of line and I'll teach you how to fly" ~Blind Guardian (2006)</i> </p>
 
@@ -19,8 +19,14 @@
 
 <h3 align='center'>:link:<a href='https://portfolio-carol42.vercel.app/' target='_blank'> Go to the preview (Vercel)</a></h3>
 
+<table align="right">
+ <tr><td><a href="https://github.com/Carol42/portfolio/blob/main/README-en.md">:us: English</a></td></tr>
+ <tr><td><a href="https://github.com/Carol42/portfolio/blob/main/README.md">:brazil: Português</a></td></tr>
+</table>
+<!--
 <h4 align="center">:brazil: <a href="./README.md">Ir para a versão em Português deste README »</a>
 </h4>
+-->
 <details>
     <summary>Table of Contents</summary>
     <ol>
@@ -77,13 +83,10 @@ Moreover, it's good to have an editor to work on code, such as [VSCode](https://
 ```bash
 # Clone the repository
 $ git clone https://github.com/Carol42/portfolio
-
 # Go to the directory
 $ cd portfolio
-
 # Install the dependencies
 $ npm install
-
 # Start the project
 $ npm start
 ```

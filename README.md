@@ -1,7 +1,7 @@
 <div id="topo"></div>
 <h1 align='center'>
-    <img src='./src/img/octocat.png' width='10%' alt='octocat'>
-    <img src='./src/img/logo-title.png' width='70%' alt='portfolio pessoal'>
+    <img src='https://github.com/Carol42/portfolio/blob/main/src/img/octocat.png' width='10%' alt='octocat'>
+    <img src='https://github.com/Carol42/portfolio/blob/main/src/img/logo-title.png' width='70%' alt='portfolio pessoal'>
 </h1>
 <p align="center"><i>“Step out of line and I'll teach you how to fly" ~Blind Guardian (2006)</i> </p>
 
@@ -13,14 +13,21 @@
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Carol42/portfolio?color=%23F7DF1E&logo=javascript&style=plastic">
     <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/Carol42/portfolio?&style=plastic&color=F05032&logo=git">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Carol42/portfolio?color=F05032&logo=git&logoColor&style=plastic">
+    <img alt="date created" src="https://badges.pufler.dev/created/Carol42/portfolio?style=plastic&color=CF2323">
     <img src="https://img.shields.io/static/v1?label=🚧 status&message=em desenvolvimento&color=FDD23F&style=plastic&logo=" alt="status: em desenvolvimento"/>
 </div>
 
 
 <h3 align='center'>:link:<a href='https://portfolio-carol42.vercel.app/' target='_blank'> Acessar a demonstração (Vercel)</a></h3>
 
+<table align="right">
+ <tr><td><a href="https://github.com/Carol42/portfolio/blob/main/README-en.md">:us: English</a></td></tr>
+ <tr><td><a href="https://github.com/Carol42/portfolio/blob/main/README.md">:brazil: Português</a></td></tr>
+</table>
+<!--
 <h4 align="center">:us::gb: <a href="./README-en.md"> Go to the English version of this README »</a>
 </h4>
+-->
 <details>
     <summary>Sumário</summary>
     <ol>
@@ -77,13 +84,10 @@ Além disso, é bom ter um editor para trabalhar com o código como o [VSCode](h
 ```bash
 # Clonar o repositório
 $ git clone https://github.com/Carol42/portfolio
-
 # Entrar no diretório
 $ cd portfolio
-
 # Instalar as dependências
 $ npm install
-
 # Iniciar o projeto
 $ npm start
 ```
