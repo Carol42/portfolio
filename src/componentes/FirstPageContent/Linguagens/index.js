@@ -16,7 +16,7 @@ const StyledItem = styled.li`
 
 export default function Linguagens() {
     return (
-        <Wrapper slice="60" row_end="span 3" src={Borda}>
+        <Wrapper slice="60" row_end="span 1" src={Borda}>
             <StyledList>
                 <StyledItem>HTML<ProgressBar width="85%" /></StyledItem>
                 <StyledItem>CSS<ProgressBar width="75%" /></StyledItem>

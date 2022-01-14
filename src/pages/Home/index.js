@@ -12,17 +12,17 @@ const StyledGrid = styled.div`
     margin: 0 auto;
     display: grid;
     grid-template-columns: .7fr .7fr .7fr;
-    grid-template-rows: 2fr 1fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
 `
 
 export default function Home() {
     return (
         <PageTemplate>
                 <StyledGrid>
-                    <Idiomas />
-                    <Linguagens />
                     <Frases />
+                    <Linguagens />
                     <Ferramentas />
+                    <Idiomas />
                     <Personalidade />
                 </StyledGrid>
         </PageTemplate>

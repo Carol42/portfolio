@@ -16,13 +16,14 @@ const StyledItem = styled.li`
 
 export default function Ferramentas() {
     return (
-        <Wrapper slice="60" row_end="span 3" src={Borda}>
+        <Wrapper slice="60" row_end="span 2" src={Borda}>
             <StyledList>
                 <StyledItem>Git / Github<ProgressBar width="25%" /></StyledItem>
                 <StyledItem>Scrum<ProgressBar width="40%" /></StyledItem>
                 <StyledItem>Linux Mint / Ubuntu<ProgressBar width="70%" /></StyledItem>
                 <StyledItem>Fusion 360<ProgressBar width="40%" /></StyledItem>
                 <StyledItem>Gimp<ProgressBar width="40%" /></StyledItem>
+                <StyledItem>Microsoft Office<ProgressBar width="70%" /></StyledItem>
             </StyledList>
             <h3>Ferramentas <FontAwesomeIcon icon={ faDAndD } /> Softwares</h3>
             </Wrapper>

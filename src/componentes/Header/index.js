@@ -25,8 +25,12 @@ const Bio = styled.div`
 `
 const Title = styled.h1`
     text-align: center;
-    align-self: center;
+    align-self: flex-end;
     grid-area: 1/ 1/ span 1 / span 3;
+    font-family: 'Old-England-Gothic', serif;
+    font-size: 72px;
+    color: #222;
+    font-weight: normal;
 `
 const Resume = styled.div`
     display: grid;

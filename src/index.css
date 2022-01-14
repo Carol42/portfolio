@@ -1,8 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif;*/
+  font-family: RobotoSlab;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -15,4 +20,44 @@ h1, h3, p, ul{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Coalition';
+  src: local('Coalition'), url(./fonts/Coalition.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Dots-Land-Gotika';
+  src: local('Dots-Land-Gotika'), url(./fonts/Dots-Land-Gotika.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Old-England-Gothic';
+  src: local('Old-England-Gothic'), url(./fonts/Old-England-Gothic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'SubwayNovella';
+  src: local('SubwayNovella'), url(./fonts/SubwayNovella.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Bad_Behaviour';
+  src: local('Bad_Behaviour'), url(./fonts/Bad_Behaviour.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'dcc_sharp';
+  src: local('dcc_sharp'), url(./fonts/dcc_sharp.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'The-Artisan-Marker';
+  src: local('The-Artisan-Marker'), url(./fonts/The-Artisan-Marker.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'RobotoSlab';
+  src: local('RobotoSlab'), url(./fonts/RobotoSlab.ttf) format('truetype');
 }

@@ -5,15 +5,15 @@ import Img from '../../img/button-bg.jpeg';
 
 const  StyledLink = styled(Link)`
     border-radius: 12px;
-    padding: .6em 1.5em;
+    padding: .3em 1.5em;
     margin: auto 1em;
     background-image: url(${Img});
     background-position: right;
-    box-shadow: 5px 5px 12px #222;
+    box-shadow: 5px 5px 10px #333;
     text-decoration: none;
-    font-size: 1.1em;
     color: #222;
-    font-weight: 600;
+    font-weight: 400;
+    font-family: 'The-Artisan-Marker', serif;
 `
 
 export default function Button(props){
