@@ -83,10 +83,13 @@ Moreover, it's good to have an editor to work on code, such as [VSCode](https://
 ```bash
 # Clone the repository
 $ git clone https://github.com/Carol42/portfolio
+
 # Go to the directory
 $ cd portfolio
+
 # Install the dependencies
 $ npm install
+
 # Start the project
 $ npm start
 ```
