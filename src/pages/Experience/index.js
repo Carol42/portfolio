@@ -28,19 +28,19 @@ const StyledLink = styled.a`
 export default function Experience() {
     return(
         <PageTemplate>
-                <JobCard src={ E2c } company="E2C Júnior - Empresa Júnior de Engenharia de Computação da UEPG" jobTitle="Trainee" date="nov/2021 - atualmente"
+                <JobCard src={ E2c } companyLink="https://e2cjunior.com/" company="E2C Júnior - Empresa Júnior de Engenharia de Computação da UEPG" jobTitle="Trainee" date="nov/2021 - atualmente"
                 activities="Desenvolvimento web frontend." ></JobCard>
-                <JobCard src={ Jumper } company="Jumper! Profissões e Idiomas" jobTitle="Professora de Inglês" date="fev/2021 - jun/2021"
+                <JobCard src={ Jumper } companyLink="https://jumpercursos.com.br/" company="Jumper! Profissões e Idiomas" jobTitle="Professora de Inglês" date="fev/2021 - jun/2021"
                 activities={ <p>Ministrou aulas de Inglês nível 1 para crianças entre 9 e 12 anos.<br />Acompanhou as turmas de Informática Profissional, Excel Avançado e Web Design no período de licença do professor titular (1 mês e meio).</p> } ></JobCard>
-                <JobCard src={ King } company="King Cursos" jobTitle="Professora de Inglês" date="jan/2020 - dez/2020"
+                <JobCard src={ King } companyLink="https://cursos.kingcursos.com.br/" company="King Cursos" jobTitle="Professora de Inglês" date="jan/2020 - dez/2020"
                 activities="Ministrou aulas de Inglês nível 1 para adolescentes entre 12 e 17 anos." ></JobCard>
-                <JobCard src={ Mm } company="Lojas MM MercadoMóveis" jobTitle="Aprendiz" date="jun/2018 - dez/2018"
+                <JobCard src={ Mm } companyLink="https://www.lojasmm.com/" company="Lojas MM MercadoMóveis" jobTitle="Aprendiz" date="jun/2018 - dez/2018"
                 activities={ <p>Controle e contagem de estoque;<br />Atendimento ao cliente;<br />Cadastro de produtos para assistência técnica.</p> } >
                     <details>
                         <summary>Cursos e Treinamentos realizados</summary>
                         <StyledDetails>
                             <summary>A arte de tomar decisões</summary>
-                            <StyledLink href="/">Certificado »</StyledLink>
+                            <StyledLink href="https://drive.google.com/file/d/1BdKlqsNuakZds63dAX5FgiW75Ieg2UFe/view?usp=sharing">Certificado »</StyledLink>
                             <StyledDetails2>
                                 <summary>Ver conteúdo</summary>
                                 <p>CH: 1 hora</p>
@@ -58,7 +58,7 @@ export default function Experience() {
                         </StyledDetails>
                         <StyledDetails>
                             <summary>Checklist - Executando tarefas com êxito</summary>
-                            <StyledLink href="/">Certificado »</StyledLink>
+                            <StyledLink href="https://drive.google.com/file/d/1oGlRizLjAk8g4OL41_jA8cHhhkuadLkL/view?usp=sharing">Certificado »</StyledLink>
                             <StyledDetails2>
                                 <summary>Ver conteúdo</summary>
                                 <p>CH: 2 horas</p>
@@ -78,7 +78,7 @@ export default function Experience() {
                         </StyledDetails>
                         <StyledDetails>
                             <summary>Como combater o estresse e a ansiedade</summary>
-                            <StyledLink href="/">Certificado »</StyledLink>
+                            <StyledLink href="https://drive.google.com/file/d/1p4SGvFZbRFmNm2CmWQRzOqg00PupLSGy/view?usp=sharing">Certificado »</StyledLink>
                             <StyledDetails2>
                                 <summary>Ver conteúdo</summary>
                                 <p>CH: 4 horas</p>
@@ -132,7 +132,7 @@ export default function Experience() {
                         </StyledDetails>
                         <StyledDetails>
                             <summary>Conheça os ladrões do tempo</summary>
-                            <StyledLink href="/">Certificado »</StyledLink>
+                            <StyledLink href="https://drive.google.com/file/d/1xTbq-lYpAkzzDsWe4FsACF6JdeBHb4Hi/view?usp=sharing">Certificado »</StyledLink>
                             <StyledDetails2>
                                 <summary>Ver conteúdo</summary>
                                 <p>CH: 1 hora</p>
@@ -150,7 +150,7 @@ export default function Experience() {
                         </StyledDetails>
                         <StyledDetails>
                             <summary>Conhecendo a Reforma Ortográfica</summary>
-                            <StyledLink href="/">Certificado »</StyledLink>
+                            <StyledLink href="https://drive.google.com/file/d/1FhZQ1NzA1P_dUFkT38spHtZaaeGfXBpC/view?usp=sharing">Certificado »</StyledLink>
                             <StyledDetails2>
                                 <summary>Ver conteúdo</summary>
                                 <p>CH: 8 horas</p>
@@ -163,7 +163,7 @@ export default function Experience() {
                         </StyledDetails>
                         <StyledDetails>
                             <summary>Ética no ambiente profissional</summary>
-                            <StyledLink href="/">Certificado »</StyledLink>
+                            <StyledLink href="https://drive.google.com/file/d/1TI5Zp1dQRL0m1w273C-RxULKY27fRwNU/view?usp=sharing">Certificado »</StyledLink>
                             <StyledDetails2>
                                 <summary>Ver conteúdo</summary>
                                 <p>CH: 2 horas</p>
@@ -181,7 +181,7 @@ export default function Experience() {
                         </StyledDetails>
                         <StyledDetails>
                             <summary>Excel 2013</summary>
-                            <StyledLink href="/">Certificado »</StyledLink>
+                            <StyledLink href="https://drive.google.com/file/d/1UJiD-kNzMaFWq6LEU94KAF47cFRabPRM/view?usp=sharing">Certificado »</StyledLink>
                             <StyledDetails2>
                                 <summary>Ver conteúdo</summary>
                                 <p>CH: 4 horas</p>
@@ -229,7 +229,7 @@ export default function Experience() {
                         </StyledDetails>
                         <StyledDetails>
                             <summary>Matemática - Fundamentos básicos I</summary>
-                            <StyledLink href="/">Certificado »</StyledLink>
+                            <StyledLink href="https://drive.google.com/file/d/1UO9bdkk491uLM-1-3UxFJmzt9ccpDsmD/view?usp=sharing">Certificado »</StyledLink>
                             <StyledDetails2>
                                 <summary>Ver conteúdo</summary>
                                 <p>CH: 8 horas</p>
@@ -284,7 +284,7 @@ export default function Experience() {
                         </StyledDetails>
                         <StyledDetails>
                             <summary>Matemática - Fundamentos básicos II</summary>
-                            <StyledLink href="/">Certificado »</StyledLink>
+                            <StyledLink href="https://drive.google.com/file/d/1JS9SB1Ia9CG7b-5iMRF3GzhL_El-lmuQ/view?usp=sharing">Certificado »</StyledLink>
                             <StyledDetails2>
                                 <summary>Ver conteúdo</summary>
                                 <p>CH: 2 horas</p>
